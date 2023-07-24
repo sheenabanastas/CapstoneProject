@@ -9,6 +9,7 @@ export default function Faqs() {
                 <h1> Frequently Asked Questions</h1>
                 <div className="faq-grid-container"> 
                     <div className='faq-item'>
+                        <div className="faqs-bg-overlay"></div>
                         <div class="faqs-question-and-answer">
                             <p className="faqs-questions">
                                 Can you make outfits other than Filipiniana, or can you also make casual wear?
@@ -19,6 +20,7 @@ export default function Faqs() {
                         </div>
                     </div>
                     <div className='faq-item'>
+                    <div className="faqs-bg-overlay"></div>
                         <div class="faqs-question-and-answer">
                             <p className="faqs-questions">
                                 What if there are discrepancies on the order shipped?
@@ -29,6 +31,7 @@ export default function Faqs() {
                         </div>
                     </div>
                     <div className='faq-item'>
+                    <div className="faqs-bg-overlay"></div>
                         <div class="faqs-question-and-answer">
                             <p className="faqs-questions">
                                 Do you have shop in Lazada or Shoppe?
