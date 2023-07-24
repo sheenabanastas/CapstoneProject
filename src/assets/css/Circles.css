@@ -1,0 +1,119 @@
+/*
+* Styles for Mobile
+*/
+.about-circle-text {
+    margin: 0;
+    background-color: #1c1c1c;
+    color: #F2EDDB;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    border: 6px solid #C8A763;
+    font-family: 'Kaushan Script';
+    padding: 0;
+    font-size: 2rem;
+}
+.mb-54 {
+    margin-bottom: 54px;
+}
+.about-circle-container {
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about-circle-container-inactive {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.about-logo-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #c8a763;
+}
+.about-overview-header {
+    font-family: Kaushan Script;
+    color: #F2EDDB;
+    position: relative;
+    margin-top: 4.5rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.about-overview-text {
+    position: relative;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1rem;
+    color: #F2EDDB;
+    padding-top: 90px;
+}
+.about-overview-logo-text {
+    position: relative;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 1rem;
+    color: #F2EDDB;
+}
+.about-overview-container {
+    border: 6px solid #c8a763;
+    border-radius: 10px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+}
+.background-overlay {
+    background-color: #1c1c1c;
+    opacity: 0.75;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+.about-text-container {
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*
+* Styles for Tablet
+*/
+@media only screen and (min-width: 600px) {
+    .about-overview-header {
+        font-size: 1.8rem;
+    }
+    .about-circle-container-inactive {
+        height: 450px;
+    }
+    .about-circle-container {
+        height: 350px;
+    }
+}
+
+/*
+* Styles for desktop
+*/
+@media only screen and (min-width: 768px) {
+
+}
+
+/*
+* Styles for Big screen
+*/
+@media only screen and (min-width: 1444px) {
+
+}

@@ -1,0 +1,60 @@
+.faqs-page {
+    background-image: url('../imgs/dressBackground.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    font-family: Kaushan Script;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0;
+}
+.faq-grid-container {
+    display: flex;
+    flex-flow: row;
+    gap: 16px;
+    margin: 15px;
+    padding: 15px;
+    /* overflow: scroll; */
+    justify-content: center;
+}
+.faqs-question-and-answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+}
+.faqs-questions {
+    height: 50%;
+    font-family: Kaushan Script;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.faqs-answers {
+    height: 50%;
+    font-family: Karma;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.faq-item {
+    width: 100%;
+    border: solid 12px #C8A761;
+    border-radius: 40px;
+    padding: 0.75rem;
+}

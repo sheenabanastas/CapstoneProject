@@ -1,0 +1,119 @@
+/*
+* Styles for Mobile
+*/
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+    height: auto;
+    flex-direction: column;
+}
+
+.footer-icons svg {
+    height: 25px;
+    width: 25px;
+    fill: #c8a763;
+}
+
+.footer-img-logo {
+    color: #c8a763;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.footer-img-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-newsletter {
+    padding: 0 51px;
+}
+
+.newsletter {
+    color: #c8a763;
+    font-family: Kaushan Script;
+    font-size: 2rem;
+}
+
+.footer-newsletter-text {
+    color: #c8a763;
+    font-size: 1.25rem;
+    font-family: Kaushan Script;
+}
+
+.footer-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+}
+
+#email {
+    height: 24px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.footer-subscribe {
+    background-color: #c8a763;
+    color: black;
+    height: 29px;
+    width: 35%;
+    border-radius: 6px;
+    font-family: 'Karma';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        background-color: #1c1c1c;
+    }
+}
+
+/*
+* Styles for desktop
+*/
+@media only screen and (min-width: 768px) {
+    
+
+    /* .vl {
+        border-left: 6px solid #c8a763;
+        height: 500px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        top: 0;
+      } */
+
+    .footer-img-logo {
+    color: #c8a763;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .footer-img-logo img {
+    color: #c8a763;
+    height: 200px;
+    width: 200px;
+    }
+
+}
+
+/*
+* Styles for Big screen
+*/
+@media only screen and (min-width: 1444px) {
+
+}
